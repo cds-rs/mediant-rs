@@ -1,9 +1,8 @@
 [package]
-name = "farey-rs"
+name = "mediant-rs"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Approximate real numbers as fractions using the Stern-Brocot tree"
 
 [dependencies]
 bpaf = { version = "0.9", features = ["derive"] }
